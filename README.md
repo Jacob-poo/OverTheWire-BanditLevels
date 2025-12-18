@@ -1,5 +1,5 @@
 # OverTheWire-BanditLevels
-This is my progression of the OverTheWire Bandit levels 1-34
+This is a guide to the OverTheWire Bandit levels 1-34
 
  
 Password is posted in each file along with progression & tools used
