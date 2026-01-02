@@ -1,0 +1,14 @@
+#Lvl : 16
+
+#Logged into level using password from Lvl 15: 
+
+ssh bandit16@bandit.labs.overthewire.org -p 2220
+
+nmap -vv -p31000-32000 -sV -T5 localhost
+
+echo '' | openssl s_client -quiet -connect localhost:31790
+
+# Successfully retrieved the credentials for Level17 by submitting the password of the current level to a port on localhost in the range 31000 to 32000
+# This level provided a SSh private key, so Level17 will require a private key to be made
+
+#Password is stored in Level17
