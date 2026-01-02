@@ -1,0 +1,19 @@
+#Lvl : 13
+
+#Logged into level using password from Lvl 12: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+
+scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private .
+
+chmod 600 sshkey.private
+
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+cd /etc/bandit_pass/
+cat bandit14
+
+
+# Successfully used a Private SSH key to gain access to user Bandit14 and retrieve password
+
+#Password is stored in Level14
