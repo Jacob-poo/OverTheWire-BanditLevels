@@ -1,0 +1,18 @@
+#Lvl : 14
+
+#Logged into level using password from Lvl 13: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+ssh bandit14@bandit.labs.overthewire.org -p 2220
+
+nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+# OR
+
+echo 'MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS' | nc localhost 30000
+
+# Successfully sent the Level14 password to localhost 30000 via two methods
+# Method One: used nc then input password
+# Method Two: used a one-liner with echo and nc commands
+
+#Password is stored in Level15
