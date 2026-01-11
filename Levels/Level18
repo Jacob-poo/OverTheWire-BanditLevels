@@ -1,0 +1,9 @@
+#Lvl : 18
+
+#
+
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+
+#
+
+#Password is stored in Level19
