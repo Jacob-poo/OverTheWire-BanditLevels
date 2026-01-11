@@ -1,0 +1,13 @@
+#Lvl : 17
+
+#Rejected login with initial bandit17.key file due to bad permissions
+
+chmod 600 bandit17.key 
+
+ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
+
+diff passwords.old passwords.new
+
+# Successfully used the diff command to find the single line changed between passwords.old and passwords.new
+
+#Password is stored in Level18
