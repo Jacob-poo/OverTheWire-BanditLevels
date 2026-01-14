@@ -1,0 +1,9 @@
+#Lvl : 19
+
+#Logged into level using password from Lvl 18: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+
+# 
+
+#Password is stored in Level20
