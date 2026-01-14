@@ -4,6 +4,8 @@
 
 ssh bandit19@bandit.labs.overthewire.org -p 2220
 
-# 
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+# Successfully used setuid binary which runs as Bandit20 to access one of its files, /etc/bandit_pass/bandit20
 
 #Password is stored in Level20
