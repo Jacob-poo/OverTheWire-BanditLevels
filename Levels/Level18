@@ -1,9 +1,9 @@
 #Lvl : 18
 
-#
+#Logged into level using password from Lvl 17: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
-ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
 
-#
+# Successfully ran ssh with an argument to read the 'readme' file upon entry due to being immediately kicked when entering the password
 
 #Password is stored in Level19
