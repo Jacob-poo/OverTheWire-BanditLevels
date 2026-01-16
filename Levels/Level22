@@ -1,0 +1,16 @@
+#Lvl : 22
+
+#Logged into level using password from Lvl 21: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+ssh bandit22@bandit.labs.overthewire.org -p 2220
+
+cat /etc/cron.d/cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit23.sh
+
+echo 'I am user bandit23' | md5sum
+
+# Successfully read cronjob & its script. The script turns a phrase into an md5 hash, then uses said hash as the filename in the /tmp directory.
+# We then use the echo command to get the md5 hash and read the file
+
+#Password is stored in Level23
