@@ -1,0 +1,16 @@
+#Lvl : 21
+
+#Logged into level using password from Lvl 20: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+ssh bandit21@bandit.labs.overthewire.org -p 2220
+
+cat /etc/cron.d/cronjob_bandit22
+
+cat /usr/bin/cronjob_bandit22.sh
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+# Successfully read the cronjob for bandit22 as well as a shell script inside said file. The script then creates another file in the 
+# /tmp directory that is readable by all users, providing the password for the next level
+
+#Password is stored in Level22
