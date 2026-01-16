@@ -4,8 +4,11 @@
 
 ssh bandit20@bandit.labs.overthewire.org -p 2220
 
+echo '0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO' | nc -nlvp 1234 &
 
+./suconnect 1234
 
-# Successfully
+# Successfully connected to a specified port via the SUID, the port service provided Level20's password as output, so it then provided the password for Level21
+# I used a listener
 
 #Password is stored in Level21
